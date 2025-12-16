@@ -16,7 +16,7 @@ app.component('review-list', {
                 <br>
                 "{{ review.review }}"
                 <br>
-                {{ review.recommendation === 'Yes' ? Recommends : Does not recommend }} 
+                {{ review.recommendation === 'Yes' ? 'Recommends' : 'Does not recommend' }} 
                 this product
             </li>
         </ul>
